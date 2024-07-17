@@ -29,15 +29,21 @@ function Login() {
         <>
             <div className="form_action">
                 <form className="form_action--login" onSubmit={handleSubmit}>
-                    <h2 className="">Login Quick</h2>
+                    <h2>Login Quick</h2>
                     <div>
                         <div className="form_input">
                           <input type="email" placeholder="Email!" />
-                          <FaEnvelope className="icon-email"/>  
+                          <span>
+                            <FaEnvelope className="icon-email"/> 
+                          </span>
+                           
                         </div>
                         <div className="form_input">
                           <input type="password" placeholder="Password"/>
-                            <FaLock className="icon-password"/>
+                            <span>
+                                <FaLock className="icon-password"/>
+                            </span>
+                            
                         </div>
                         <div className="form_attention">
                             <div className="form_attention--item">

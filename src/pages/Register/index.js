@@ -38,15 +38,24 @@ function Register() {
                     <div>
                         <div className="form_input">
                             <input type="text" placeholder="FullName..."/> 
-                            <FaUserAlt  className="icon-user"/> 
+                            <span>
+                                <FaUserAlt  className="icon-user"/> 
+                            </span>
+                            
                         </div>
                         <div className="form_input">
                             <input type="email" placeholder="Email..."/>
-                            <FaEnvelope className="icon-email"/>
+                            <span>
+                                <FaEnvelope className="icon-email"/>
+                            </span>
+                            
                         </div>
                         <div className="form_input">
                             <input type="password" placeholder="Password..."/>
-                            <FaLock className="icon-password"/>
+                            <span>
+                                <FaLock className="icon-password"/>
+                            </span>
+                            
                         </div>
                     </div>
                     <button className="btn_register" type="submit">
